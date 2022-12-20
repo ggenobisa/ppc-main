@@ -24,7 +24,7 @@ img {max-width:100%}
     .hide-desktop {display: block;}
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
     .hero .logo {top: 4%;left: 0;right: 0;}
-    .hero .logo img {width: 280px;}
+    .hero .logo img {width: 270px;}
     .hero .offer-text {left: 0;right: 0; top: unset; bottom: 25%;}
     .hero .offer-text h2 {font-size: 24px;}
     .hero .offer-text h1 {font-size: 36px;}
