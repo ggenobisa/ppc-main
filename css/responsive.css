@@ -2,6 +2,7 @@
 img {max-width:100%}
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1366px) {
+    .genting-casino .genting-container p {font-size: 27px;padding: 0 2rem;}
     
 }/****1366px****/
 
