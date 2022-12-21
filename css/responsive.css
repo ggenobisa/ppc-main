@@ -26,9 +26,9 @@ img {max-width:100%}
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
     .hero .logo {top: 4%;left: 0;right: 0;}
     .hero .logo img {width: 270px;}
-    .hero .offer-text {left: 0;right: 0; top: unset; bottom: 25%;}
-    .hero .offer-text h2 {font-size: 24px;}
-    .hero .offer-text h1 {font-size: 36px;}
+    .hero .offer-text {left: 0;right: 0; top: unset; bottom: 15%;}
+    .hero .offer-text h2 {font-size: 28px;}
+    .hero .offer-text h1 {font-size: 50px;}
     .hero .offer-text button {max-width: 153px; height: 42px; font-size: 18px; margin-top: 20px;}
 
     .marquee {height: 45px;}
@@ -45,8 +45,7 @@ img {max-width:100%}
 
     .featured .content h2 {font-size: 36px;}
     .featured .content h3,
-    .genting-live .content h3,
-    .most-played-games .content h3 {font-size: 25px;}
+    .genting-live .content h3 {font-size: 25px;}
 
     .genting-casino .content h2 {font-size: 32px;}
 
@@ -70,7 +69,13 @@ img {max-width:100%}
    
 }/****940px LANDSCAPE****/
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:480px) and (max-width:767px) {
+    .hero {background: url('../img/banner-desktop.jpg') 80% center/cover no-repeat;}
+    .hero .logo {top: 5%}
+    .hero .logo img {width: 300px;}
+    .hero .offer-text {bottom: 20%;}
+    .hero .offer-text h2 {font-size: 30px;}
+    
   
 }/****768px****/
 
@@ -79,7 +84,9 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-    /* .hero .offer-text {bottom: 30%;} */
+    .hero .offer-text {bottom: 22%;}
+    .hero .offer-text h2 {font-size: 23px;}
+    .hero .offer-text h1 {font-size: 36px;}
 }/****640px****/
 
 @media screen and (max-width:375px) {
